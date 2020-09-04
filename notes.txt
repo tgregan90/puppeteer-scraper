@@ -1,0 +1,64 @@
+// const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+// var targetPage = "https://www.sellmymobile.com/phones/apple/iphone-7-plus-32gb/";
+// const csvWriter = createCsvWriter({
+//     path: 'Reports/uSwitch Fibre 60MB Page.csv',
+//     header: [
+//         {
+//             id: 'landingPageURL',
+//             title: 'landingPageURL'
+//         },       
+//         {
+//             id: 'title',
+//             title: 'title'
+//         },       
+//         {
+//             id: 'Speed',
+//             title: 'Speed'
+//         },       
+//         {
+//             id: 'Limit',
+//             title: 'Limit'
+//         },{
+//             id:"contractLength",
+//             title:"Contract Length"
+//         },       
+//         {
+//             id: 'monthlyCost',
+//             title: 'Monthly Cost'
+//         },
+//         {
+//             id:'setupCost',
+//             title:'Setup Cost'
+//         }
+//     ]
+// });
+
+    // let maxPrice = ( await page.$x("//*[@id='device_results_table']/tbody[1]/tr[1]/td[5]/text()"));
+    // let dealsData = await page.evaluate(() => {
+    //     // let maxPrice = document.querySelector("#device_results_table > tbody:nth-child(9) > tr:nth-child(1) > td.device-results-table__cell.device-results-table__cell--price > span.device-results-table__deal-price");
+    //     let maxPrice = ( await page.$x("//table/tr[0]/td[5]"))[0];
+    //     console.log(maxPrice);
+    //     // let dealsAll = [];
+    //     // let deals = document.getElementsByClassName('deal-card__wrap');
+    //     // for (let i = 0; i < 10; i++) {
+    //     //         let dealJson = {};
+    //     //         dealJson.landingPageURL = document.location.href;
+    //     //         dealJson.title =  deals[i].getElementsByClassName("deal-card__title")[0].textContent;
+    //     //         dealJson.Speed =  deals[i].getElementsByClassName("deal-card__cell deal-card__cell__speed")[0].textContent;
+    //     //         dealJson.Limit =  deals[i].getElementsByClassName("deal-card__cell deal-card__cell__downloads")[0].textContent;
+    //     //         dealJson.contractLength =  deals[i].getElementsByClassName("deal-card__cell deal-card__cell__contract ")[0].textContent;
+    //     //         dealJson.monthlyCost =  deals[i].getElementsByClassName("deal-card__cell deal-card__cell__cost")[0].textContent;
+    //     //         dealJson.setupCost =  deals[i].getElementsByClassName("setup_cost_price")[0].textContent;
+    //     //         dealsAll.push(dealJson);
+                
+    //     // }
+    //     // return dealsAll
+    //     return maxPrice;
+    // });
+
+        // csvWriter.writeRecords(dealsData) 
+    //     .then(() => {
+    //         console.log('...Done');
+    //     });
+    // console.log(dealsData);
+    // results.push(dealsData);
